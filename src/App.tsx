@@ -144,8 +144,8 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-earth-bg text-earth-ink pb-20">
-      <header className="px-6 pt-10 max-w-lg mx-auto">
+    <div className="min-h-screen bg-earth-bg text-earth-ink pb-[calc(env(safe-area-inset-bottom)+80px)]">
+      <header className="px-6 pt-[calc(env(safe-area-inset-top)+40px)] max-w-lg mx-auto">
         <div className="flex items-center gap-3 mb-2">
           <div className="bg-earth-green p-2.5 rounded-2xl shadow-sm">
             <Leaf className="text-white" size={24} />

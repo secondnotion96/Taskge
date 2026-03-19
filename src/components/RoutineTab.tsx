@@ -19,7 +19,7 @@ export default function RoutineTab({ tasks, categories, toggleTask }: RoutineTab
   const getCategory = (id: string) => categories.find(c => c.id === id);
 
   return (
-    <div className="pb-24 pt-6 px-6 max-w-lg mx-auto">
+    <div className="pb-[calc(env(safe-area-inset-bottom)+100px)] pt-6 px-6 max-w-lg mx-auto">
       <header className="mb-10">
         <h1 className="text-3xl font-bold text-earth-ink mb-2">Daily Routine</h1>
         <p className="text-earth-muted italic">A dedicated timeline for your recurring habits.</p>

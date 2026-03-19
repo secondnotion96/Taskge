@@ -1,0 +1,6 @@
+{
+  "appId": "com.taskge.app",
+  "appName": "Taskge",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

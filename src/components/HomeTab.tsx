@@ -23,7 +23,7 @@ export default function HomeTab({ tasks, categories, toggleTask }: HomeTabProps)
   const getCategory = (id: string) => categories.find(c => c.id === id);
 
   return (
-    <div className="pb-24 pt-6 px-6 max-w-lg mx-auto">
+    <div className="pb-[calc(env(safe-area-inset-bottom)+100px)] pt-6 px-6 max-w-lg mx-auto">
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-earth-ink mb-1">Task List</h1>
         <p className="text-earth-muted italic text-sm">one task at a time</p>

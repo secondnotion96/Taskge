@@ -118,7 +118,7 @@ export default function ManageTab({
   const getCategory = (id: string) => categories.find(c => c.id === id);
 
   return (
-    <div className="pb-24 pt-6 px-6 max-w-lg mx-auto">
+    <div className="pb-[calc(env(safe-area-inset-bottom)+100px)] pt-6 px-6 max-w-lg mx-auto">
       <header className="mb-8 flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold text-earth-ink mb-2">Manage</h1>
